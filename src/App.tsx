@@ -3,7 +3,6 @@ import { Toaster } from 'react-hot-toast'
 import Home from '@/pages/Home'
 import Privacy from '@/pages/Privacy'
 import Terms from '@/pages/Terms'
-import Navbar from './components/ui/Navbar'
 
 
 function App() {
