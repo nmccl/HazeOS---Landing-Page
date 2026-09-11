@@ -87,9 +87,14 @@ const Home = () => {
 
                 {/* CTA Button */}
                 <div className="pt-6">
-                  <button className="px-8 py-3 border border-foreground text-foreground hover:bg-foreground hover:text-background transition-all duration-300 font-serif uppercase text-xs tracking-widest shadow-sm hover:shadow-md">
+                  <a
+                    href="https://apps.apple.com/us/app/haze-weather-app/id6778630921"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-block px-8 py-3 border border-foreground text-foreground hover:bg-foreground hover:text-background transition-all duration-300 font-serif uppercase text-xs tracking-widest shadow-sm hover:shadow-md"
+                  >
                     Download
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
