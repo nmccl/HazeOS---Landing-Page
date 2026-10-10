@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 backdrop-blur-md bg-background/60 border-b border-border">
       <div className="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
         <Link to="/" className="text-lg font not-first:uppercase font-serif tracking-widest">
-          HAZEOS
+          Haze
         </Link>
 
         <button

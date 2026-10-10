@@ -1,6 +1,6 @@
 import Footer from "@/components/ui/Footer";
 import Reveal from "@/components/ui/Reveal";
-import HazeOsIcon from "../assets/HazeOsIcon.png"
+import HazeIcon from "../assets/HazeIcon.png"
 import BackgroundImage from "../assets/background.png"
 import Navbar from "@/components/ui/Navbar";
 
@@ -44,8 +44,8 @@ const Home = () => {
               <div className="flex justify-center order-2 lg:order-1">
                 <Reveal>
                   <img
-                    src={HazeOsIcon}
-                    alt="HazeOS Logo"
+                    src={HazeIcon}
+                    alt="Haze Logo"
                     className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain drop-shadow-xl"
                   />
                 </Reveal>
@@ -54,7 +54,7 @@ const Home = () => {
               {/* Right Side - Text Content */}
               <div className="space-y-6 order-1 lg:order-2">
                 <p className="font-serif text-sm md:text-base tracking-widest uppercase leading-relaxed">
-                  HazeOS is a minimalistic weather-app designed to provide users with a unique and visually appealing experience.
+                  Haze is a minimalistic weather-app designed to provide users with a unique and visually appealing experience.
                 </p>
 
                 {/* Features */}
