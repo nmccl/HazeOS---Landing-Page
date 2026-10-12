@@ -51,10 +51,10 @@ const Footer = () => {
         </Link>
         <span className="text-neutral-300">·</span>
         <a
-          href="mailto:support@noahmcclung.com"
+          href="mailto:noah_mcclung@icloud.com"
           className="hover:text-neutral-800 transition-colors"
         >
-          Support
+          Contact
         </a>
       </div>
 
